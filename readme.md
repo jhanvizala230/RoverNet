@@ -34,12 +34,3 @@ Filename : rovernet_final_code\Prediction.ipynb
 After the training and evaluation model is saved in the output directory in this "instance_segmentation\output\{name of output directory}\model_final.pth" path use this file as a model weights file to get a prediction on your test. More than 1800 files are available that would provide visualization on 50 images.
 
 This file also saves the bounding box data along with each instance category and unsegmented area all in one JSON file.
-
-## Image Extraction and K Means prediction
-
-Filename : rovernet_final_code\feature_extraction.ipynb
-
-In the above file, 4 different features are extracted for each pixel with a different window scale. Window scale parameters can be adjusted. this extraction is performed on each in the given directory and K means is clustering performed for each image.
-
-
-
